@@ -10,11 +10,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @ToString
 
-@Document(collection="Book")
+@Document(collection = "Book")
 public class Book {
-
     @Id
-    private int id;
+    private Integer id;
     private String bookName;
-    private String authorName; 
+    private String authorName;
 }
